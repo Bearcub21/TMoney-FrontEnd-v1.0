@@ -1,0 +1,63 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.1.1000.89"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                    Id="4c7e3ee2-b0de-474b-9164-b3457147cee4">
+    <Page.Content>
+        <Content Width="1280" Height="1024" Id="d565cccf-6f83-4836-a7ec-c02241ba888c">
+            <Content.Layers>
+                <Layer Id="3656a366-d018-4ad7-b7c1-821105715b2f" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="e4b13ebe-336d-46ed-85b8-7aeb418725d0" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1280,1024" Id="09eb9d9e-1a92-4ead-b4ad-ec1570d03a10" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="386902c5-642f-4ad9-b3c8-12e12d9efb77" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="03/05/2018 08:08:24" Id="af935e06-d2a8-4f7c-a0a0-7cb0ac23ecd2">
+            <Scene.KeyFrames>
+                <KeyFrame Duration="400" Id="37b67981-0638-4afb-856d-1fb415a164e2">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Effect="Fade" Target="3656a366-d018-4ad7-b7c1-821105715b2f" Duration="400">
+                            <Add.Item>
+                                <ContainerBox Color="#FFC6C6C6" Padding="5" Id="13ef43ba-99a6-472b-84d5-c70faf858948" Panel.Bounds="471,141,400{5,2147483647},450{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="1f89a49d-17c8-4b46-bba4-00f32b5ce09b">
+                                            <Container.Children>
+                                                <Image Tooltip="Placeholfer for Logo" Id="54a72fd9-cfe2-419d-b2e1-6d1e78aeb2d7" Panel.Bounds="149,78,5*{5,2147483647},5*{5,2147483647}" />
+                                                <TextBox Id="a5dc3de7-faa8-4063-b166-d7c2afc064a1" Panel.Bounds="134,211,120{5,2147483647},5*{5,2147483647}">
+                                                    <TextBox.GotFocus>
+                                                        <CommandSwitchTo SceneId="af935e06-d2a8-4f7c-a0a0-7cb0ac23ecd2" AutoRevertEvent="TextBox.LostFocus" Created="03/05/2018 08:31:53" Id="74f58d66-d44d-49f7-b1a5-712deb2995ef" />
+                                                    </TextBox.GotFocus>
+                                                </TextBox>
+                                                <PasswordBox Id="84505a25-4a74-4406-bad7-5b5c7fe23768" Panel.Bounds="134,247,120{5,2147483647},5*{5,2147483647}" />
+                                                <Button Text="Login" Id="2903f750-74fa-42d5-bf1a-420a60359d1d" Panel.Bounds="154,293,80{5,2147483647},35{5,2147483647}">
+                                                    <Button.Click>
+                                                        <CommandNavigate Screen="/Home.screen" Created="03/05/2018 08:55:04" Id="52fe3c95-b04e-49fb-93ed-0d5b772e31d5">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Type="Crossfade" Duration="300" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </Button.Click>
+                                                </Button>
+                                                <Link Text="Don't remember your password?" FontStyle="Normal|Underline" Id="e1c8369f-92a7-4504-98a1-4d6c58cd74ec" Panel.Bounds="92,356,5*{5,2147483647},5*{5,2147483647}" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                    <ContainerBox.MouseOver>
+                                        <CommandSwitchTo SceneId="af935e06-d2a8-4f7c-a0a0-7cb0ac23ecd2" AutoRevertEvent="Control.MouseOut" Created="03/05/2018 08:15:26" Id="40ed86f9-35ea-4271-af7b-b190d165a26d" />
+                                    </ContainerBox.MouseOver>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

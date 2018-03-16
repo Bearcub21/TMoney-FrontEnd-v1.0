@@ -1,0 +1,132 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="10.1.1000.89"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                         xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                         Id="d22cfcdb-15f4-487f-818c-b5c1c04712d9" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent BorderThickness="1" Width="218" Height="1024" Id="cd9c067a-97d4-40c7-bbf2-be2efcdf9128">
+            <BorderedContent.Layers>
+                <Layer Id="a719e976-4db2-4054-8b46-6c91470b7860" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="ce72778d-25db-43f0-9647-a1e41d2e7ee7" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="2261934b-edac-4586-bcd1-d6990c921e9d" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="2d7b37e7-b839-4258-b328-7a087cbb7d41" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="03/05/2018 09:09:23" Id="c5ad302e-c05b-4783-a19d-a0da59d7a0dc">
+            <Scene.KeyFrames>
+                <KeyFrame Id="8fffd725-bce4-4141-af78-16891be3ed52">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="a719e976-4db2-4054-8b46-6c91470b7860">
+                            <Add.Item>
+                                <Tree Id="0de7ab96-d3e4-4900-b763-4ece7edfde3e" Panel.Bounds="-1,61,218{5,2147483647},212{5,2147483647}">
+                                    <Tree.Items>
+                                        <TreeItem Text="Home" Id="1e68015b-21dd-45ba-a50e-0262f78afa48">
+                                            <TreeItem.Icon>
+                                                <Icon Color="#FF666666" CatalogId="fa-home" Id="fb6a3a16-60a8-4baf-b86e-f0db7a9fae19" />
+                                            </TreeItem.Icon>
+                                            <TreeItem.Selected>
+                                                <CommandNavigate Screen="/Home.screen" Created="03/05/2018 09:06:31" Id="e9d9cf5a-2c77-4dea-98e5-c8d4bbb8d074">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Type="Crossfade" Duration="300" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </TreeItem.Selected>
+                                        </TreeItem>
+                                        <TreeItem Text="--------------------------" Id="68356a6a-32f6-4de2-b4a8-403aaaf16d0c" />
+                                        <TreeItem Text="Customers" Id="b4fd2735-ae89-4625-90c3-e666ff10e2bd">
+                                            <TreeItem.Icon>
+                                                <Icon Color="#FF666666" CatalogId="fa-user" Id="287dbbd0-3997-4865-895e-8d9a5616b0e0" />
+                                            </TreeItem.Icon>
+                                            <TreeItem.Children>
+                                                <TreeItem Text="View Customers" Id="872ab3ca-27e5-46a9-bf73-1426192f2590">
+                                                    <TreeItem.Selected>
+                                                        <CommandNavigate Screen="/viewCustomers.screen" Created="03/09/2018 02:55:58" Id="af20c043-ac23-4d37-a6e7-f956ad49cc16">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Type="Crossfade" Duration="300" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </TreeItem.Selected>
+                                                </TreeItem>
+                                                <TreeItem Text="Create Customer" Id="3671ad10-1bbf-462b-b835-89cf2560dc74">
+                                                    <TreeItem.Selected>
+                                                        <CommandNavigate Screen="/createCustomer.screen" Created="03/09/2018 00:56:16" Id="318616ed-690a-42ba-b450-669dd566e27f">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Type="Crossfade" Duration="300" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </TreeItem.Selected>
+                                                </TreeItem>
+                                            </TreeItem.Children>
+                                        </TreeItem>
+                                        <TreeItem Text="--------------------------" Id="0511bbaf-d868-47f7-9fb5-6cc63e0757ec" />
+                                        <TreeItem Text="Transactions" Id="4c77b518-d7ec-410b-b2f2-362b80c86914">
+                                            <TreeItem.Icon>
+                                                <Icon Color="#FF666666" CatalogId="linea-banknotes" Id="6c2f2506-7c3c-4798-b8bc-a6abfb14211e" />
+                                            </TreeItem.Icon>
+                                            <TreeItem.Children>
+                                                <TreeItem Text="View Transactions History" Id="d7db534d-82d4-41d8-b5cc-5b2e2a64fea7">
+                                                    <TreeItem.Selected>
+                                                        <CommandNavigate Screen="/viewTransactionsHistory.screen" Created="03/09/2018 04:10:36" Id="9299f0a9-cc88-42fb-a25f-8ea13268050b">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Type="Crossfade" Duration="300" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </TreeItem.Selected>
+                                                </TreeItem>
+                                                <TreeItem Text="Create Transaction" Id="1d780d3e-8dbb-414f-9952-fedc0bfa8078">
+                                                    <TreeItem.Selected>
+                                                        <CommandNavigate Screen="/createTransaction.screen" Created="03/09/2018 03:13:43" Id="d9e1fce5-89a0-44db-b201-f59f68aa70ac">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Type="Crossfade" Duration="300" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </TreeItem.Selected>
+                                                </TreeItem>
+                                            </TreeItem.Children>
+                                        </TreeItem>
+                                    </Tree.Items>
+                                </Tree>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a719e976-4db2-4054-8b46-6c91470b7860">
+                            <Add.Item>
+                                <Image Tooltip="logoPlaceHolder" IsEnabled="False" Id="8b0b321c-a073-463b-b2de-1976c7dadb4c" Panel.Bounds="-1,-1,90{5,2147483647},62{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a719e976-4db2-4054-8b46-6c91470b7860">
+                            <Add.Item>
+                                <Icon CatalogId="fa-street-view" Id="33295f79-e311-4c4c-b910-4031173c6635" Panel.Bounds="100,14,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a719e976-4db2-4054-8b46-6c91470b7860">
+                            <Add.Item>
+                                <Link Text="userName" FontStyle="Normal|Underline" Id="0b79191c-9d1c-4574-9d0f-c4a4fc75395f" Panel.Bounds="143,14,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a719e976-4db2-4054-8b46-6c91470b7860">
+                            <Add.Item>
+                                <Link Text="Log out" FontStyle="Normal|Underline" Id="c0adcfdb-cfc2-42de-a594-08b675a3874b" Panel.Bounds="152,37,5*{5,2147483647},5*{5,2147483647}">
+                                    <Link.Click>
+                                        <CommandNavigate Screen="/Login.screen" Created="03/08/2018 11:53:35" Id="a2856add-55b0-4c44-93c6-ac6d9bed13c4">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Crossfade" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Link.Click>
+                                </Link>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

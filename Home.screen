@@ -1,0 +1,66 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.1.0.81"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                 Id="1b1bebd4-b903-4785-a2b9-a492df569c75">
+    <Page.Content>
+        <Content Width="1280" Height="1024" Id="7be3b7d1-df6a-42a6-a421-10842c13bedb">
+            <Content.Layers>
+                <Layer Id="6eb9ac60-2ef7-4c91-958f-2f7882ce2a71" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="09a9cc67-8932-45b2-9679-56861f45adf2" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1280,1024" Id="283d74f6-1d76-41e3-823e-c81a15b723c2" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="2d97a6b1-c0cf-4948-8c72-b7eb09fd81f7" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="03/05/2018 08:34:09" Id="fae4eb0e-294d-4e32-b365-bf288a4addc8">
+            <Scene.KeyFrames>
+                <KeyFrame Id="73d06299-aace-43eb-b1f3-e7f204ae2367">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="6eb9ac60-2ef7-4c91-958f-2f7882ce2a71">
+                            <Add.Item>
+                                <ChartMock MockType="Column Chart" Id="44300911-911d-4542-aa48-b938a86c0393" Panel.Bounds="289,221,150{5,2147483647},150{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="6eb9ac60-2ef7-4c91-958f-2f7882ce2a71">
+                            <Add.Item>
+                                <ChartMock MockType="Line Chart" Id="732bd5a5-dde1-4a86-932d-4fa66c7b5e36" Panel.Bounds="1069,221,150{5,2147483647},150{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="6eb9ac60-2ef7-4c91-958f-2f7882ce2a71">
+                            <Add.Item>
+                                <GaugeMock MockType="Linear Gauge" Id="082e29e2-9e6b-497f-86b6-7be206c1c06e" Panel.Bounds="575,485,130{5,2147483647},130{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="6eb9ac60-2ef7-4c91-958f-2f7882ce2a71">
+                            <Add.Item>
+                                <GaugeMock MockType="Linear Gauge" Id="1fe108a0-90c8-432d-b4b9-c82dd285a210" Panel.Bounds="819,485,130{5,2147483647},130{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="6eb9ac60-2ef7-4c91-958f-2f7882ce2a71">
+                            <Add.Item>
+                                <ChartMock MockType="Column Chart" Id="0b8867de-97bd-4d47-9843-61a0d3dd870a" Panel.Bounds="549,221,150{5,2147483647},150{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="6eb9ac60-2ef7-4c91-958f-2f7882ce2a71">
+                            <Add.Item>
+                                <ChartMock MockType="Line Chart" Id="32f44d5d-55df-4f49-8839-17f6c783ff28" Panel.Bounds="809,221,150{5,2147483647},150{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="6eb9ac60-2ef7-4c91-958f-2f7882ce2a71">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Screenpart.screenpart" Id="a8abf069-5087-4b1e-b85d-e94e9d4ee773" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
