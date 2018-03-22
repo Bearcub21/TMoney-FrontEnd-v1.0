@@ -25,57 +25,12 @@
                     <KeyFrame.Operations>
                         <Add Property="Panel.Children" Target="cb690b1f-5e9f-44c7-ae2e-834cab4aeab9">
                             <Add.Item>
-                                <ScreenPartInstance TemplateReference="/Screenparts/Screenpart.screenpart" Id="56497bb2-c8c5-4574-9615-79e2298e9972" Panel.Bounds="0,0,5*{5,2147483647},5*{5,2147483647}" />
+                                <ScreenPartInstance TemplateReference="/Screenparts/SideBar.screenpart" Id="56497bb2-c8c5-4574-9615-79e2298e9972" Panel.Bounds="0,0,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="cb690b1f-5e9f-44c7-ae2e-834cab4aeab9">
                             <Add.Item>
-                                <Title RichText="Create Customer" Align="Center" Id="8742b193-e030-473f-96f8-46f0ca8b4c47" Panel.Bounds="631,119,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="cb690b1f-5e9f-44c7-ae2e-834cab4aeab9">
-                            <Add.Item>
-                                <TextBox IsEnabled="False" Id="c6fb6b94-031f-4e9d-9652-8d7f56d28645" Panel.Bounds="746,186,139{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="cb690b1f-5e9f-44c7-ae2e-834cab4aeab9">
-                            <Add.Item>
-                                <Grid FontSize="13" HeaderFontSize="13" Opacity="0.6" Id="b5a75f78-df0a-4ce6-b327-cfb0c7cc817d" Panel.Bounds="732,276,159{5,2147483647},72{5,2147483647}">
-                                    <Grid.HeaderRow>
-                                        <GridHeaderRow FontStyle="" Height="32" Id="1a05b7ec-1d4e-426b-ae11-0ea41ff6146d" />
-                                    </Grid.HeaderRow>
-                                    <Grid.Columns>
-                                        <GridColumn ColumnId="5b496007-1d16-4de5-96bd-aecf809a8f76" Type="Text" Width="41" Id="2c63fac3-54c9-4951-8e4d-845471320c61">
-                                            <GridColumn.CellData>
-                                                <GridCellData ColumnId="5b496007-1d16-4de5-96bd-aecf809a8f76" Value="Day" Opacity="1" Id="fb8263ef-5420-4b78-bf0b-4d3eda95f941" />
-                                            </GridColumn.CellData>
-                                        </GridColumn>
-                                        <GridColumn ColumnId="8d676b80-8049-489a-88e0-9632dc554cad" Type="Text" Width="64" Id="ed323313-dbe9-4541-8907-3b42b6a7abb9">
-                                            <GridColumn.CellData>
-                                                <GridCellData ColumnId="8d676b80-8049-489a-88e0-9632dc554cad" Value="Month" Opacity="1" Id="67b131d8-b52b-4662-8ee2-25b0203e7d55" />
-                                            </GridColumn.CellData>
-                                        </GridColumn>
-                                        <GridColumn ColumnId="44af8884-1a20-45be-8465-c93c7fffc300" Type="Text" Width="46" Id="256e1d8e-7f98-439c-a6f3-9a9ec2012bdc">
-                                            <GridColumn.CellData>
-                                                <GridCellData ColumnId="44af8884-1a20-45be-8465-c93c7fffc300" Value="Year" Opacity="1" Id="1165c823-a312-4dc9-a2d7-1a65f24d3af9" />
-                                            </GridColumn.CellData>
-                                        </GridColumn>
-                                    </Grid.Columns>
-                                    <Grid.Rows>
-                                        <GridRow Height="32" Id="36c1b2b2-6918-4cce-93b4-338e4d805b17">
-                                            <GridRow.Data>
-                                                <GridCellData ColumnId="5b496007-1d16-4de5-96bd-aecf809a8f76" Value="XX" Opacity="1" Id="9bcaffed-69c1-4528-9fa0-7f87de6245f5" />
-                                                <GridCellData ColumnId="8d676b80-8049-489a-88e0-9632dc554cad" Value="XX" Opacity="1" Id="7e11d0b4-acc1-4ac6-be3f-389c688570a6" />
-                                                <GridCellData ColumnId="44af8884-1a20-45be-8465-c93c7fffc300" Value="XXXX" Opacity="1" Id="a791cb46-0cb4-4783-bc7f-fcbaad914d74" />
-                                            </GridRow.Data>
-                                        </GridRow>
-                                    </Grid.Rows>
-                                </Grid>
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="cb690b1f-5e9f-44c7-ae2e-834cab4aeab9">
-                            <Add.Item>
-                                <TextArea FontFamily="Open Sans" Id="b3a9bffb-078f-4d8f-9f4e-dbf537004ba7" Panel.Bounds="525,360,159{5,2147483647},147{5,2147483647}" />
+                                <Title RichText="Create Customer" Align="Center" Id="8742b193-e030-473f-96f8-46f0ca8b4c47" Panel.Bounds="557,119,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="cb690b1f-5e9f-44c7-ae2e-834cab4aeab9">
@@ -85,106 +40,90 @@
                         </Add>
                         <Add Property="Panel.Children" Target="cb690b1f-5e9f-44c7-ae2e-834cab4aeab9">
                             <Add.Item>
-                                <Label RichText="Client Number" FontFamily="Open Sans" Id="06b8e60a-ab6d-48ac-a959-27dac952d920" Panel.Bounds="899,189,5*{5,2147483647},5*{5,2147483647}" />
+                                <ContainerBox Id="f59ccd77-c37d-428d-b72b-f640a8fa8156" Panel.Bounds="306,283,771{5,2147483647},475{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="62c8738e-bff5-462b-b327-e50bed153235">
+                                            <Container.Children>
+                                                <Group GroupName="Group" Id="b244cc0f-6994-43f1-bb9c-6aaedb517aa2" Panel.Bounds="94,29,0*,0*">
+                                                    <Group.Children>
+                                                        <TextBox IsEnabled="False" Id="90acd77e-57a4-459e-bf28-3faa5b46fb1d" Panel.Bounds="301,0,139{5,2147483647},5*{5,2147483647}" />
+                                                        <Grid FontSize="13" HeaderFontSize="13" Opacity="0.6" Id="05cf5354-bf8a-4130-addc-ea6a003758ca" Panel.Bounds="301,183,168{5,2147483647},72{5,2147483647}">
+                                                            <Grid.HeaderRow>
+                                                                <GridHeaderRow FontStyle="" Height="32" Id="456021ba-5572-4622-9c1e-eec7649289b3" />
+                                                            </Grid.HeaderRow>
+                                                            <Grid.Columns>
+                                                                <GridColumn ColumnId="5b496007-1d16-4de5-96bd-aecf809a8f76" Type="Text" Width="41" Id="86d2acaf-2ea1-4d7a-a9a2-5f67e26f19ef">
+                                                                    <GridColumn.CellData>
+                                                                        <GridCellData ColumnId="5b496007-1d16-4de5-96bd-aecf809a8f76" Value="Day" Opacity="1" Id="83294673-2a76-4f4a-b58e-f227910db92b" />
+                                                                    </GridColumn.CellData>
+                                                                </GridColumn>
+                                                                <GridColumn ColumnId="8d676b80-8049-489a-88e0-9632dc554cad" Type="Text" Width="64" Id="5a202634-6b1d-4357-85e7-bd0c745f0d19">
+                                                                    <GridColumn.CellData>
+                                                                        <GridCellData ColumnId="8d676b80-8049-489a-88e0-9632dc554cad" Value="Month" Opacity="1" Id="ee1d5b13-205d-4d7b-a704-db7270a2558d" />
+                                                                    </GridColumn.CellData>
+                                                                </GridColumn>
+                                                                <GridColumn ColumnId="44af8884-1a20-45be-8465-c93c7fffc300" Type="Text" Width="46" Id="f29b32cb-c188-44ce-81a1-f22d4ef15b25">
+                                                                    <GridColumn.CellData>
+                                                                        <GridCellData ColumnId="44af8884-1a20-45be-8465-c93c7fffc300" Value="Year" Opacity="1" Id="8e495b87-d257-4430-ac25-ab1e2bd253b1" />
+                                                                    </GridColumn.CellData>
+                                                                </GridColumn>
+                                                            </Grid.Columns>
+                                                            <Grid.Rows>
+                                                                <GridRow Height="32" Id="70015cfe-b079-4848-a95c-283195dddd0b">
+                                                                    <GridRow.Data>
+                                                                        <GridCellData ColumnId="5b496007-1d16-4de5-96bd-aecf809a8f76" Value="XX" Opacity="1" Id="876458f0-4d93-49f4-bf6a-d753be6af7fc" />
+                                                                        <GridCellData ColumnId="8d676b80-8049-489a-88e0-9632dc554cad" Value="XX" Opacity="1" Id="5611d61a-4a62-46bb-8563-954cb1b3268c" />
+                                                                        <GridCellData ColumnId="44af8884-1a20-45be-8465-c93c7fffc300" Value="XXXX" Opacity="1" Id="3991b992-88cc-4438-87df-17068d907067" />
+                                                                    </GridRow.Data>
+                                                                </GridRow>
+                                                            </Grid.Rows>
+                                                        </Grid>
+                                                        <TextArea FontFamily="Open Sans" Id="160c4140-ad69-4037-9a0b-cd401fbaea1c" Panel.Bounds="80,174,159{5,2147483647},147{5,2147483647}" />
+                                                        <Label RichText="Client Number" FontFamily="Open Sans" Id="073a292e-2df4-4192-a0b4-5aa68ccb9dde" Panel.Bounds="454,3,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="First Name" FontFamily="Open Sans" Id="d86e3e98-0d7e-4854-89ef-914c2a37f446" Panel.Bounds="37,3,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="Comments" FontFamily="Open Sans" Id="b2b3e4ca-ad5d-4161-8313-02a70df6e03a" Panel.Bounds="0,183,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="Date of birth" FontFamily="Open Sans" Id="b784646e-1ae6-4842-9fde-19cc217fb66d" Panel.Bounds="471,198,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Button Text="Submit" FontFamily="Open Sans" Id="e2bc1ce1-9e69-487c-81ce-8f93fa769b12" Panel.Bounds="280,371,80{5,2147483647},35{5,2147483647}">
+                                                            <Button.Click>
+                                                                <CommandSwitchTo SceneId="0be06ee7-321e-4fd0-a8eb-2335ce7b72aa" Created="03/08/2018 12:26:11" Id="17abdf59-f257-4107-b31a-3687aa31cfe6" />
+                                                            </Button.Click>
+                                                        </Button>
+                                                        <TextBox FontFamily="Open Sans" Id="03a07fc4-b890-4613-970e-0968410de035" Panel.Bounds="119,0,120{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="Last Name" FontFamily="Open Sans" Id="0761d6ba-63a7-4ebd-99d1-401b30bbb586" Panel.Bounds="37,48,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <TextBox FontFamily="Open Sans" Id="0d792418-8c3c-4a28-abd5-be604a528a40" Panel.Bounds="119,45,120{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="Occupation" FontFamily="Open Sans" Id="0e5e3779-afd9-44a3-b8f5-5589920bdaf3" Panel.Bounds="37,96,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <TextBox FontFamily="Open Sans" Id="236eb1e9-7856-4f17-ba41-d1d5d5eb5b8f" Panel.Bounds="119,93,120{5,2147483647},5*{5,2147483647}" />
+                                                        <TextBox Text="Active" IsEnabled="False" Id="47a7f6ee-5641-44ef-9e68-70a5ba7847e1" Panel.Bounds="301,45,139{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="Status" FontFamily="Open Sans" Id="8572e2fe-9766-4690-bd58-389431278782" Panel.Bounds="454,48,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="Gender" FontFamily="Open Sans" Id="0c0a8121-290f-440a-b29d-7c4f74032f1e" Panel.Bounds="61,135,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="Identification" FontFamily="Open Sans" Id="96ab5f40-66d6-4bb0-b656-591c4b6ea17e" Panel.Bounds="468,270,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <TextBox FontFamily="Open Sans" Id="5071fb65-d52a-4226-a724-4276b843ff76" Panel.Bounds="340,270,120{5,2147483647},5*{5,2147483647}" />
+                                                        <ComboBox Id="998238ae-e9d9-4ab2-973c-c8c4076fadb2" Panel.Bounds="304,315,150{5,2147483647},28{5,2147483647}">
+                                                            <ComboBox.Items>
+                                                                <Item Text="Cedula" Id="11f80496-b45c-462f-9e18-e14a5630a857" />
+                                                                <Item Text="Pasaporte" Id="ac7a3fe5-b0db-4365-a3fb-de7cb9ead715" />
+                                                            </ComboBox.Items>
+                                                        </ComboBox>
+                                                        <Label RichText="Type of Identification" FontFamily="Open Sans" Id="8b1f723a-9c46-4c36-a377-ee74deff242b" Panel.Bounds="468,315,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <OptionGroup Id="3f5d4bbb-de94-48e6-8603-b05ceeceaf5a" Panel.Bounds="119,130,5*{5,2147483647},5*{5,2147483647}">
+                                                            <OptionGroup.Items>
+                                                                <Option Text="M" Id="c29aacec-bfb8-4b85-9b53-4678e0b59b20" />
+                                                                <Option Text="F" Id="e9b5e1a1-462d-4cb3-aed3-8eb88bf8e73b" />
+                                                            </OptionGroup.Items>
+                                                        </OptionGroup>
+                                                        <TextArea FontFamily="Open Sans" Id="b04d8e59-a2b5-435a-9662-db053a93f81f" Panel.Bounds="301,96,139{5,2147483647},60{5,2147483647}" />
+                                                        <Label RichText="Address" FontFamily="Open Sans" Id="61511037-4905-48d5-a553-40b950142e98" Panel.Bounds="454,117,5*{5,2147483647},5*{5,2147483647}" />
+                                                    </Group.Children>
+                                                </Group>
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="cb690b1f-5e9f-44c7-ae2e-834cab4aeab9">
                             <Add.Item>
-                                <Label RichText="First Name" FontFamily="Open Sans" Id="bf17a84e-15bc-40e4-ad55-c05e6dc384c8" Panel.Bounds="482,189,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="cb690b1f-5e9f-44c7-ae2e-834cab4aeab9">
-                            <Add.Item>
-                                <Label RichText="Comments" FontFamily="Open Sans" Id="15b6559e-fed1-4ddc-9987-9ad5226d04a6" Panel.Bounds="445,369,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="cb690b1f-5e9f-44c7-ae2e-834cab4aeab9">
-                            <Add.Item>
-                                <Label RichText="Date of birth" FontFamily="Open Sans" Id="20b27057-3ef2-4d52-950a-f6cdab292960" Panel.Bounds="899,276,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="cb690b1f-5e9f-44c7-ae2e-834cab4aeab9">
-                            <Add.Item>
-                                <Button Text="Submit" FontFamily="Open Sans" Id="21db9269-775f-483a-9195-cd15204407e4" Panel.Bounds="636,534,80{5,2147483647},35{5,2147483647}">
-                                    <Button.Click>
-                                        <CommandSwitchTo SceneId="0be06ee7-321e-4fd0-a8eb-2335ce7b72aa" Created="03/08/2018 12:26:11" Id="18ae4d6f-356e-4ad4-a7a1-b23bfca1c312" />
-                                    </Button.Click>
-                                </Button>
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="cb690b1f-5e9f-44c7-ae2e-834cab4aeab9">
-                            <Add.Item>
-                                <TextBox FontFamily="Open Sans" Id="eea21205-505b-44c2-b4d3-f41a4f87ff67" Panel.Bounds="564,186,120{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="cb690b1f-5e9f-44c7-ae2e-834cab4aeab9">
-                            <Add.Item>
-                                <Label RichText="Last Name" FontFamily="Open Sans" Id="c832e7db-f6a7-4db0-a657-ca01ddde35c9" Panel.Bounds="482,234,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="cb690b1f-5e9f-44c7-ae2e-834cab4aeab9">
-                            <Add.Item>
-                                <TextBox FontFamily="Open Sans" Id="cd5e88f7-ce5c-4a31-b790-1ddc2790b1f2" Panel.Bounds="564,231,120{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="cb690b1f-5e9f-44c7-ae2e-834cab4aeab9">
-                            <Add.Item>
-                                <Label RichText="Occupation" FontFamily="Open Sans" Id="fe7aabe1-a5bd-4f45-ba86-7149af4f8a34" Panel.Bounds="482,282,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="cb690b1f-5e9f-44c7-ae2e-834cab4aeab9">
-                            <Add.Item>
-                                <TextBox FontFamily="Open Sans" Id="71c8702a-4cc5-41fb-8e4c-f1924d7a56c7" Panel.Bounds="564,279,120{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="cb690b1f-5e9f-44c7-ae2e-834cab4aeab9">
-                            <Add.Item>
-                                <TextBox Text="Active" IsEnabled="False" Id="7282429f-f37f-4c09-83ba-66eb8f53c81a" Panel.Bounds="746,231,139{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="cb690b1f-5e9f-44c7-ae2e-834cab4aeab9">
-                            <Add.Item>
-                                <Label RichText="Status" FontFamily="Open Sans" Id="2b2cb821-72f2-4251-aab5-ba493af79671" Panel.Bounds="899,234,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="cb690b1f-5e9f-44c7-ae2e-834cab4aeab9">
-                            <Add.Item>
-                                <Label RichText="Gender" FontFamily="Open Sans" Id="58790ece-ba9b-490f-820a-90ec9ee64633" Panel.Bounds="506,321,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="cb690b1f-5e9f-44c7-ae2e-834cab4aeab9">
-                            <Add.Item>
-                                <Label RichText="Identification" FontFamily="Open Sans" Id="5f6b11a5-3a99-4709-a242-51b989b6838c" Panel.Bounds="899,363,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="cb690b1f-5e9f-44c7-ae2e-834cab4aeab9">
-                            <Add.Item>
-                                <TextBox FontFamily="Open Sans" Id="f6562425-7f68-448e-b75f-636991a4d2e9" Panel.Bounds="771,363,120{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="cb690b1f-5e9f-44c7-ae2e-834cab4aeab9">
-                            <Add.Item>
-                                <ComboBox Id="7141fde0-e120-461a-a9a7-46ea1e87958f" Panel.Bounds="735,408,150{5,2147483647},28{5,2147483647}">
-                                    <ComboBox.Items>
-                                        <Item Text="Cedula" Id="0c462c89-4ce6-48c6-a53d-ce7cfe8d0461" />
-                                        <Item Text="Pasaporte" Id="b4508af5-3e84-47c4-9333-e9cdf5a3bb33" />
-                                    </ComboBox.Items>
-                                </ComboBox>
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="cb690b1f-5e9f-44c7-ae2e-834cab4aeab9">
-                            <Add.Item>
-                                <Label RichText="Type of Identification" FontFamily="Open Sans" Id="8de921e4-7487-4b05-850b-744d41bf85d6" Panel.Bounds="899,408,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="cb690b1f-5e9f-44c7-ae2e-834cab4aeab9">
-                            <Add.Item>
-                                <OptionGroup Id="295613e5-045c-4a5a-98fc-0c128dacafcf" Panel.Bounds="564,316,5*{5,2147483647},5*{5,2147483647}">
-                                    <OptionGroup.Items>
-                                        <Option Text="M" Id="7227ac4f-8b2c-45ed-9f0f-c42a456c5f8e" />
-                                        <Option Text="F" Id="bc98b881-bfb6-4ebc-bd6e-a468ee633746" />
-                                    </OptionGroup.Items>
-                                </OptionGroup>
+                                <ScreenPartInstance TemplateReference="/Screenparts/UserHoverButton.screenpart" Id="269f2802-4d9e-4c5c-9243-d09192d9161b" Panel.Bounds="1063,74,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>

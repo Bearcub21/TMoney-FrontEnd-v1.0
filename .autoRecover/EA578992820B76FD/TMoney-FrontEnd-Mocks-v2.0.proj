@@ -1,6 +1,6 @@
 ﻿<?Infragistics.Models format="xaml" version="4" appVersion="10.1.1000.89"?>
 <Project xmlns="http://prototypes.infragistics.com/"
-                                                                                      Id="4YZ7QJ2PDJ2U" StartScreens="/Login.screen" IndigoVersion="10" RecentColors="#FF3BAF4A,#FF9BBB59,#FF48C157,#FFC6C6C6,#FFE2E2E2,#FFFFFFFF" LastUsedFonts="Open Sans" DefaultStylesheet="/Stylesheet.stylesheet">
+                                                                                      Id="4YZ7QJ2PDJ2U" StartScreens="/Login.screen" IndigoVersion="10" RecentColors="#FFFFFFFF,#FFE2E2E2,#FFC6C6C6,#FF3BAF4A,#FF9BBB59,#FF48C157" LastUsedFonts="Open Sans" DefaultStylesheet="/Stylesheet.stylesheet">
     <Project.Defaults>
         <ProjectDefaults Viewport="1280,1024">
             <ProjectDefaults.Device>
@@ -9,6 +9,6 @@
         </ProjectDefaults>
     </Project.Defaults>
     <Project.ScreenpartsCategories>
-        <ScreenpartsCategory Name="mainComponents" Screenparts="/Screenparts/Screenpart.screenpart" />
+        <ScreenpartsCategory Name="mainComponents" Screenparts="/Screenparts/SideBar.screenpart,/Screenparts/UserHoverButton.screenpart" />
     </Project.ScreenpartsCategories>
 </Project>

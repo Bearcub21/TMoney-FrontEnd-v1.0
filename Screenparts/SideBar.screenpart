@@ -1,0 +1,188 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="10.1.1000.89"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                         xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                         Id="d22cfcdb-15f4-487f-818c-b5c1c04712d9" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent BorderThickness="1" Width="91" Height="1023" Id="cd9c067a-97d4-40c7-bbf2-be2efcdf9128">
+            <BorderedContent.Layers>
+                <Layer Id="a719e976-4db2-4054-8b46-6c91470b7860" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="ce72778d-25db-43f0-9647-a1e41d2e7ee7" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="2261934b-edac-4586-bcd1-d6990c921e9d" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="2d7b37e7-b839-4258-b328-7a087cbb7d41" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="03/05/2018 09:09:23" Id="c5ad302e-c05b-4783-a19d-a0da59d7a0dc">
+            <Scene.KeyFrames>
+                <KeyFrame Id="8fffd725-bce4-4141-af78-16891be3ed52">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="a719e976-4db2-4054-8b46-6c91470b7860">
+                            <Add.Item>
+                                <ContainerBox Id="ff0ef85f-de2a-49ac-98b8-7b7c6ca3d660" Panel.Bounds="0,0,90{5,2147483647},1023{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="6596403a-5e60-42c9-b3d0-c868eb3ff1b4">
+                                            <Container.Children>
+                                                <Image Opacity="0.4" Tooltip="logoPlaceHolder" Id="8b0b321c-a073-463b-b2de-1976c7dadb4c" Panel.Bounds="-1,958,90{5,2147483647},62{5,2147483647}">
+                                                    <Image.Click>
+                                                        <CommandNavigate Screen="/Home.screen" Created="03/19/2018 06:09:21" Id="6e7ed383-4865-49dd-abcb-611f6b201525">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Type="Crossfade" Duration="300" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </Image.Click>
+                                                </Image>
+                                                <Icon CatalogId="linea-wallet" Scale="1,1" Id="0c32498d-9e5d-415f-8e24-ce2f78b43bcd" Panel.Bounds="23,91,40{5,2147483647},40{5,2147483647}">
+                                                    <Icon.Click>
+                                                        <CommandSwitchTo SceneId="dc75397b-c5d2-4196-bf29-fef4c51418a7" AutoRevertEvent="Control.Click" Created="03/19/2018 06:07:06" Id="2d2e457e-a3f7-40f5-9ed4-b808dd10ccd8" />
+                                                    </Icon.Click>
+                                                </Icon>
+                                                <Icon CatalogId="fa-users" Scale="1,1" Id="b527592e-6a8e-4b26-a5aa-c84b8d39a0ed" Panel.Bounds="23,29,40{5,2147483647},40{5,2147483647}">
+                                                    <Icon.Click>
+                                                        <CommandSwitchTo SceneId="6f2085d3-7be0-4dcf-bb8e-20b392afebc9" AutoRevertEvent="Control.Click" Created="03/19/2018 06:04:47" Id="0abc1d8d-0a4b-4ef5-b344-e1bf940e579a" />
+                                                    </Icon.Click>
+                                                </Icon>
+                                                <Icon CatalogId="linea-square-plus" Scale="1,1" Id="772ec1b5-2484-4b8b-bf8b-918e7f9c1c75" Panel.Bounds="27,206,32{5,2147483647},32{5,2147483647}" />
+                                                <Icon CatalogId="fa-search" Id="67e98a75-ec32-4b67-9451-4efbe024b8e9" Panel.Bounds="27,153,32{5,2147483647},32{5,2147483647}">
+                                                    <Icon.Click>
+                                                        <CommandSwitchTo SceneId="9c7e6da2-4a37-4180-8f3a-80cb2e20021f" Created="03/22/2018 12:28:21" Id="f23d3616-38c3-441d-b2db-cac13c33bdc6" />
+                                                    </Icon.Click>
+                                                </Icon>
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked fa-users" StateGroup="c5ad302e-c05b-4783-a19d-a0da59d7a0dc" ParentScene="c5ad302e-c05b-4783-a19d-a0da59d7a0dc" Created="03/19/2018 06:04:47" Id="6f2085d3-7be0-4dcf-bb8e-20b392afebc9">
+            <Scene.KeyFrames>
+                <KeyFrame Id="3d77ce01-17ab-47b4-abaa-b222016b60bf">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="a719e976-4db2-4054-8b46-6c91470b7860">
+                            <Add.Item>
+                                <ContainerBox Id="3d6093af-7b6b-44d7-b422-ec87756552b9" Panel.Bounds="90,0,217{5,2147483647},73{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="ad928ea8-38ba-4f88-893f-520ecac9b716" />
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a719e976-4db2-4054-8b46-6c91470b7860">
+                            <Add.Item>
+                                <Tree Id="75e3fb90-f096-46ad-8e61-d4794943bbab" Panel.Bounds="90,0,223{5,2147483647},73{5,2147483647}">
+                                    <Tree.Items>
+                                        <TreeItem Text="Customers" Id="d721ea54-df3f-4e12-912f-7b91e3069e12">
+                                            <TreeItem.Icon>
+                                                <Icon Color="#FF666666" CatalogId="fa-user" Id="421c4088-7f9c-4e11-ac57-d5defe3c1b2d" />
+                                            </TreeItem.Icon>
+                                            <TreeItem.Children>
+                                                <TreeItem Text="View Customers" Id="a138c11a-c329-493e-a31b-e50e987e1bbe">
+                                                    <TreeItem.Selected>
+                                                        <CommandNavigate Screen="/viewCustomers.screen" Created="03/09/2018 02:55:58" Id="eded458b-c58f-4cb4-a3d2-1346775c701d">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Type="Crossfade" Duration="300" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </TreeItem.Selected>
+                                                </TreeItem>
+                                                <TreeItem Text="Create Customer" Id="a49c0ab4-7d7b-4b8f-870d-b0006bbc0999">
+                                                    <TreeItem.Selected>
+                                                        <CommandNavigate Screen="/createCustomer.screen" Created="03/09/2018 00:56:16" Id="886e861e-9c37-4e3f-a281-b350e4397e9a">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Type="Crossfade" Duration="300" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </TreeItem.Selected>
+                                                </TreeItem>
+                                            </TreeItem.Children>
+                                        </TreeItem>
+                                    </Tree.Items>
+                                </Tree>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.Width" Value="315" Target="cd9c067a-97d4-40c7-bbf2-be2efcdf9128" />
+                        <Set Property="Content.Height" Value="1024" Target="cd9c067a-97d4-40c7-bbf2-be2efcdf9128" />
+                        <Move Before="0c32498d-9e5d-415f-8e24-ce2f78b43bcd" Target="772ec1b5-2484-4b8b-bf8b-918e7f9c1c75" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked linea-wallet" StateGroup="c5ad302e-c05b-4783-a19d-a0da59d7a0dc" ParentScene="c5ad302e-c05b-4783-a19d-a0da59d7a0dc" Created="03/19/2018 06:07:06" Id="dc75397b-c5d2-4196-bf29-fef4c51418a7">
+            <Scene.KeyFrames>
+                <KeyFrame Id="d160981b-d5ca-4b92-9ea7-5ac069efc585">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="a719e976-4db2-4054-8b46-6c91470b7860">
+                            <Add.Item>
+                                <ContainerBox Id="26063802-c0d3-4999-ae6b-10a7230b952a" Panel.Bounds="89,84,228{5,2147483647},86{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="44f4295f-63b0-46ac-8541-5f150efe3995" />
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a719e976-4db2-4054-8b46-6c91470b7860">
+                            <Add.Item>
+                                <Tree Id="872b1828-b2ab-4279-880d-ac3c39eab79e" Panel.Bounds="89,84,228{5,2147483647},86{5,2147483647}">
+                                    <Tree.Items>
+                                        <TreeItem Text="Transactions" Id="514a6d40-6fa3-46e8-86f1-ac15ccb629c0">
+                                            <TreeItem.Icon>
+                                                <Icon Color="#FF666666" CatalogId="linea-wallet" Id="8069475f-07f1-4bf4-9f72-433ace0fe5be" />
+                                            </TreeItem.Icon>
+                                            <TreeItem.Children>
+                                                <TreeItem Text="View Transactions History" Id="65ad79f4-10a0-403e-8354-7cea5d765451">
+                                                    <TreeItem.Selected>
+                                                        <CommandNavigate Screen="/viewTransactionsHistory.screen" Created="03/09/2018 04:10:36" Id="a9109ffe-64dc-4af6-b6be-58df9bf63318">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Type="Crossfade" Duration="300" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </TreeItem.Selected>
+                                                </TreeItem>
+                                                <TreeItem Text="Create Transaction" Id="a937d5dd-3590-4771-833b-8ee91daa7726">
+                                                    <TreeItem.Selected>
+                                                        <CommandNavigate Screen="/createTransaction.screen" Created="03/09/2018 03:13:43" Id="ec90e278-193c-4dcb-ab4f-cda683319ed5">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Type="Crossfade" Duration="300" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </TreeItem.Selected>
+                                                </TreeItem>
+                                            </TreeItem.Children>
+                                        </TreeItem>
+                                    </Tree.Items>
+                                </Tree>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.Width" Value="318" Target="cd9c067a-97d4-40c7-bbf2-be2efcdf9128" />
+                        <Set Property="Content.Height" Value="1022" Target="cd9c067a-97d4-40c7-bbf2-be2efcdf9128" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked fa-search" StateGroup="c5ad302e-c05b-4783-a19d-a0da59d7a0dc" ParentScene="c5ad302e-c05b-4783-a19d-a0da59d7a0dc" Created="03/22/2018 12:28:21" Id="9c7e6da2-4a37-4180-8f3a-80cb2e20021f">
+            <Scene.KeyFrames>
+                <KeyFrame Id="f250c4dc-8a8a-43f3-8992-89a6ec491c10">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="a719e976-4db2-4054-8b46-6c91470b7860">
+                            <Add.Item>
+                                <TextBox FontFamily="Open Sans" Id="9354517f-c3e3-490e-b616-5167c2d5e9cd" Panel.Bounds="89,162,157{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Control.Opacity" Value="0.6" Target="67e98a75-ec32-4b67-9451-4efbe024b8e9" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

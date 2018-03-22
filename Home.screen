@@ -1,6 +1,6 @@
-﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.1.0.81"?>
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="10.1.1000.89"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                 Id="1b1bebd4-b903-4785-a2b9-a492df569c75">
+                                                                                    Id="1b1bebd4-b903-4785-a2b9-a492df569c75">
     <Page.Content>
         <Content Width="1280" Height="1024" Id="7be3b7d1-df6a-42a6-a421-10842c13bedb">
             <Content.Layers>
@@ -25,7 +25,7 @@
                     <KeyFrame.Operations>
                         <Add Property="Panel.Children" Target="6eb9ac60-2ef7-4c91-958f-2f7882ce2a71">
                             <Add.Item>
-                                <ChartMock MockType="Column Chart" Id="44300911-911d-4542-aa48-b938a86c0393" Panel.Bounds="289,221,150{5,2147483647},150{5,2147483647}" />
+                                <ChartMock MockType="Column Chart" Id="44300911-911d-4542-aa48-b938a86c0393" Panel.Bounds="223,221,150{5,2147483647},150{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="6eb9ac60-2ef7-4c91-958f-2f7882ce2a71">
@@ -35,27 +35,37 @@
                         </Add>
                         <Add Property="Panel.Children" Target="6eb9ac60-2ef7-4c91-958f-2f7882ce2a71">
                             <Add.Item>
-                                <GaugeMock MockType="Linear Gauge" Id="082e29e2-9e6b-497f-86b6-7be206c1c06e" Panel.Bounds="575,485,130{5,2147483647},130{5,2147483647}" />
+                                <GaugeMock MockType="Linear Gauge" Id="082e29e2-9e6b-497f-86b6-7be206c1c06e" Panel.Bounds="515,485,130{5,2147483647},130{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="6eb9ac60-2ef7-4c91-958f-2f7882ce2a71">
                             <Add.Item>
-                                <GaugeMock MockType="Linear Gauge" Id="1fe108a0-90c8-432d-b4b9-c82dd285a210" Panel.Bounds="819,485,130{5,2147483647},130{5,2147483647}" />
+                                <GaugeMock MockType="Linear Gauge" Id="1fe108a0-90c8-432d-b4b9-c82dd285a210" Panel.Bounds="797,485,130{5,2147483647},130{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="6eb9ac60-2ef7-4c91-958f-2f7882ce2a71">
                             <Add.Item>
-                                <ChartMock MockType="Column Chart" Id="0b8867de-97bd-4d47-9843-61a0d3dd870a" Panel.Bounds="549,221,150{5,2147483647},150{5,2147483647}" />
+                                <ChartMock MockType="Column Chart" Id="0b8867de-97bd-4d47-9843-61a0d3dd870a" Panel.Bounds="505,221,150{5,2147483647},150{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="6eb9ac60-2ef7-4c91-958f-2f7882ce2a71">
                             <Add.Item>
-                                <ChartMock MockType="Line Chart" Id="32f44d5d-55df-4f49-8839-17f6c783ff28" Panel.Bounds="809,221,150{5,2147483647},150{5,2147483647}" />
+                                <ChartMock MockType="Line Chart" Id="32f44d5d-55df-4f49-8839-17f6c783ff28" Panel.Bounds="787,221,150{5,2147483647},150{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="6eb9ac60-2ef7-4c91-958f-2f7882ce2a71">
                             <Add.Item>
-                                <ScreenPartInstance TemplateReference="/Screenparts/Screenpart.screenpart" Id="a8abf069-5087-4b1e-b85d-e94e9d4ee773" />
+                                <ScreenPartInstance TemplateReference="/Screenparts/SideBar.screenpart" Id="a8abf069-5087-4b1e-b85d-e94e9d4ee773" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="6eb9ac60-2ef7-4c91-958f-2f7882ce2a71">
+                            <Add.Item>
+                                <Title RichText="Home" FontFamily="Open Sans" Id="affd71d1-8a3a-4855-83e2-f16dd5166852" Panel.Bounds="612,86,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="6eb9ac60-2ef7-4c91-958f-2f7882ce2a71">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/UserHoverButton.screenpart" Id="e5fc5e09-5ff5-4a4e-8ee1-9ec9cd1a17c8" Panel.Bounds="1063,41,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>

@@ -1,0 +1,62 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="10.1.1000.89"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                         xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                         Id="045b0cd0-5285-437c-950b-d1379c31fdd9" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="217" Height="137" Background="#00FFFFFF" Id="2f46eea6-faf0-479b-bfe5-8ef4108e5947">
+            <BorderedContent.Layers>
+                <Layer Id="949967f2-42c7-45e6-aec0-3832ba052457" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="d31243a1-64e7-406f-9b8c-9af1b4486a66" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="dd0d1af7-443b-4cb2-9b57-2854e081d9b5" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="253181b3-81e4-439b-b921-851d3f23d8fd" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="03/19/2018 06:22:26" Id="f6e125bc-d648-4af3-b234-88281614d4c7">
+            <Scene.KeyFrames>
+                <KeyFrame Id="300522fd-7f2c-4ac8-a53d-2b8d6e238c05">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="949967f2-42c7-45e6-aec0-3832ba052457">
+                            <Add.Item>
+                                <Tree BorderColor="#FFFFFFFF" Id="ac52c362-6608-48b1-b4a6-75dc971020ca" Panel.Bounds="39,5,143{5,2147483647},120{5,2147483647}">
+                                    <Tree.Items>
+                                        <TreeItem Text="&lt;@User&gt;" IsExpanded="False" Id="67bc8719-0481-4617-8418-287e8f897f72">
+                                            <TreeItem.Children>
+                                                <TreeItem Text="My Profile" Id="00e3fd94-e0f4-4d45-8adc-662745b2baa8" />
+                                                <TreeItem Text="Settings" Id="5d14ba6d-08fe-4f03-993d-d967bd4cf6e6" />
+                                                <TreeItem Text="------------------" Id="ef35073b-e6fe-497b-8b68-9758bea9f983" />
+                                                <TreeItem Text="Logout" Id="3e684eb9-af22-4d89-9cfc-8a86f04961c1">
+                                                    <TreeItem.Selected>
+                                                        <CommandNavigate Screen="/Home.screen" Created="03/19/2018 06:28:52" Id="b125146a-37c8-4bc7-95d0-21ec5a4e4f63">
+                                                            <CommandNavigate.Transition>
+                                                                <NavigateTransition Type="Crossfade" Duration="300" />
+                                                            </CommandNavigate.Transition>
+                                                        </CommandNavigate>
+                                                    </TreeItem.Selected>
+                                                </TreeItem>
+                                            </TreeItem.Children>
+                                        </TreeItem>
+                                    </Tree.Items>
+                                </Tree>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="949967f2-42c7-45e6-aec0-3832ba052457">
+                            <Add.Item>
+                                <Icon CatalogId="iOS 7 Contacts" Id="2b5bcf6f-3eba-4077-a48b-360d08d9d05e" Panel.Bounds="0,0,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="BorderedContent.BorderColor" Value="#FFE2E2E2" Target="2f46eea6-faf0-479b-bfe5-8ef4108e5947" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

@@ -25,7 +25,7 @@
                     <KeyFrame.Operations>
                         <Add Property="Panel.Children" Target="f462abc9-b3b3-42d3-8557-f37fdd48050e">
                             <Add.Item>
-                                <ScreenPartInstance TemplateReference="/Screenparts/Screenpart.screenpart" Id="8e26d911-09ce-40be-a693-b9737a52c292" Panel.Bounds="0,0,5*{5,2147483647},5*{5,2147483647}" />
+                                <ScreenPartInstance TemplateReference="/Screenparts/SideBar.screenpart" Id="8e26d911-09ce-40be-a693-b9737a52c292" Panel.Bounds="0,0,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="f462abc9-b3b3-42d3-8557-f37fdd48050e">
@@ -143,6 +143,15 @@
                         <Add Property="Panel.Children" Target="f462abc9-b3b3-42d3-8557-f37fdd48050e">
                             <Add.Item>
                                 <Label RichText="Search" FontFamily="Open Sans" Id="c43bbe2f-2a52-4852-a426-7c951c5c7bb3" Panel.Bounds="1037,265,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f462abc9-b3b3-42d3-8557-f37fdd48050e">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/UserHoverButton.screenpart" Id="5ec82ae2-6cd1-46aa-88a7-a6438ac71a3e" Panel.Bounds="1063,16,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Set Property="TreeItem.IsExpanded" Value="False" Target="67bc8719-0481-4617-8418-287e8f897f72" />
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
